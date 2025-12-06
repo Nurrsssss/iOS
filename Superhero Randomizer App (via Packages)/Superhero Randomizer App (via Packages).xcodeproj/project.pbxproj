@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6E72DBC2EE3F17400C12047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E72DBB2EE3F17400C12047 /* AppDelegate.swift */; };
+		A6E72DBE2EE3F17400C12047 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E72DBD2EE3F17400C12047 /* SceneDelegate.swift */; };
+		A6E72DC02EE3F17400C12047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E72DBF2EE3F17400C12047 /* ViewController.swift */; };
+		A6E72DC32EE3F17400C12047 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A6E72DC22EE3F17400C12047 /* Base */; };
+		A6E72DC52EE3F17600C12047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E72DC42EE3F17600C12047 /* Assets.xcassets */; };
+		A6E72DC82EE3F17600C12047 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A6E72DC72EE3F17600C12047 /* Base */; };
+		A6E72DD32EE3F17600C12047 /* Superhero_Randomizer_App__via_Packages_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E72DD22EE3F17600C12047 /* Superhero_Randomizer_App__via_Packages_Tests.swift */; };
+		A6E72DDD2EE3F17600C12047 /* Superhero_Randomizer_App__via_Packages_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E72DDC2EE3F17600C12047 /* Superhero_Randomizer_App__via_Packages_UITests.swift */; };
+		A6E72DDF2EE3F17600C12047 /* Superhero_Randomizer_App__via_Packages_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E72DDE2EE3F17600C12047 /* Superhero_Randomizer_App__via_Packages_UITestsLaunchTests.swift */; };
+		A6E72DEE2EE3F3F500C12047 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E72DED2EE3F3F400C12047 /* Models.swift */; };
+		A6E72DF02EE3F42200C12047 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E72DEF2EE3F42200C12047 /* Storage.swift */; };
+		A6E72DF22EE3F45600C12047 /* HeroService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E72DF12EE3F45600C12047 /* HeroService.swift */; };
+		A6E72DF72EE3F7B700C12047 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A6E72DF62EE3F7B700C12047 /* Alamofire */; };
+		A6E72DF92EE3F7BC00C12047 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A6E72DF82EE3F7BC00C12047 /* Kingfisher */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6E72DCF2EE3F17600C12047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6E72DB02EE3F17400C12047 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6E72DB72EE3F17400C12047;
+			remoteInfo = "Superhero Randomizer App (via Packages)";
+		};
+		A6E72DD92EE3F17600C12047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6E72DB02EE3F17400C12047 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6E72DB72EE3F17400C12047;
+			remoteInfo = "Superhero Randomizer App (via Packages)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6E72DB82EE3F17400C12047 /* Superhero Randomizer App (via Packages).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Superhero Randomizer App (via Packages).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E72DBB2EE3F17400C12047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6E72DBD2EE3F17400C12047 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A6E72DBF2EE3F17400C12047 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6E72DC22EE3F17400C12047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6E72DC42EE3F17600C12047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6E72DC72EE3F17600C12047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6E72DC92EE3F17600C12047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6E72DCE2EE3F17600C12047 /* Superhero Randomizer App (via Packages)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Superhero Randomizer App (via Packages)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E72DD22EE3F17600C12047 /* Superhero_Randomizer_App__via_Packages_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Superhero_Randomizer_App__via_Packages_Tests.swift; sourceTree = "<group>"; };
+		A6E72DD82EE3F17600C12047 /* Superhero Randomizer App (via Packages)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Superhero Randomizer App (via Packages)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E72DDC2EE3F17600C12047 /* Superhero_Randomizer_App__via_Packages_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Superhero_Randomizer_App__via_Packages_UITests.swift; sourceTree = "<group>"; };
+		A6E72DDE2EE3F17600C12047 /* Superhero_Randomizer_App__via_Packages_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Superhero_Randomizer_App__via_Packages_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6E72DED2EE3F3F400C12047 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A6E72DEF2EE3F42200C12047 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		A6E72DF12EE3F45600C12047 /* HeroService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6E72DB52EE3F17400C12047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E72DF92EE3F7BC00C12047 /* Kingfisher in Frameworks */,
+				A6E72DF72EE3F7B700C12047 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E72DCB2EE3F17600C12047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E72DD52EE3F17600C12047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6E72DAF2EE3F17400C12047 = {
+			isa = PBXGroup;
+			children = (
+				A6E72DBA2EE3F17400C12047 /* Superhero Randomizer App (via Packages) */,
+				A6E72DD12EE3F17600C12047 /* Superhero Randomizer App (via Packages)Tests */,
+				A6E72DDB2EE3F17600C12047 /* Superhero Randomizer App (via Packages)UITests */,
+				A6E72DB92EE3F17400C12047 /* Products */,
+				A6E72DF52EE3F7B700C12047 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A6E72DB92EE3F17400C12047 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6E72DB82EE3F17400C12047 /* Superhero Randomizer App (via Packages).app */,
+				A6E72DCE2EE3F17600C12047 /* Superhero Randomizer App (via Packages)Tests.xctest */,
+				A6E72DD82EE3F17600C12047 /* Superhero Randomizer App (via Packages)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6E72DBA2EE3F17400C12047 /* Superhero Randomizer App (via Packages) */ = {
+			isa = PBXGroup;
+			children = (
+				A6E72DBB2EE3F17400C12047 /* AppDelegate.swift */,
+				A6E72DBD2EE3F17400C12047 /* SceneDelegate.swift */,
+				A6E72DBF2EE3F17400C12047 /* ViewController.swift */,
+				A6E72DC12EE3F17400C12047 /* Main.storyboard */,
+				A6E72DC42EE3F17600C12047 /* Assets.xcassets */,
+				A6E72DC62EE3F17600C12047 /* LaunchScreen.storyboard */,
+				A6E72DC92EE3F17600C12047 /* Info.plist */,
+				A6E72DED2EE3F3F400C12047 /* Models.swift */,
+				A6E72DEF2EE3F42200C12047 /* Storage.swift */,
+				A6E72DF12EE3F45600C12047 /* HeroService.swift */,
+			);
+			path = "Superhero Randomizer App (via Packages)";
+			sourceTree = "<group>";
+		};
+		A6E72DD12EE3F17600C12047 /* Superhero Randomizer App (via Packages)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A6E72DD22EE3F17600C12047 /* Superhero_Randomizer_App__via_Packages_Tests.swift */,
+			);
+			path = "Superhero Randomizer App (via Packages)Tests";
+			sourceTree = "<group>";
+		};
+		A6E72DDB2EE3F17600C12047 /* Superhero Randomizer App (via Packages)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6E72DDC2EE3F17600C12047 /* Superhero_Randomizer_App__via_Packages_UITests.swift */,
+				A6E72DDE2EE3F17600C12047 /* Superhero_Randomizer_App__via_Packages_UITestsLaunchTests.swift */,
+			);
+			path = "Superhero Randomizer App (via Packages)UITests";
+			sourceTree = "<group>";
+		};
+		A6E72DF52EE3F7B700C12047 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6E72DB72EE3F17400C12047 /* Superhero Randomizer App (via Packages) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E72DE22EE3F17600C12047 /* Build configuration list for PBXNativeTarget "Superhero Randomizer App (via Packages)" */;
+			buildPhases = (
+				A6E72DB42EE3F17400C12047 /* Sources */,
+				A6E72DB52EE3F17400C12047 /* Frameworks */,
+				A6E72DB62EE3F17400C12047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Superhero Randomizer App (via Packages)";
+			packageProductDependencies = (
+				A6E72DF62EE3F7B700C12047 /* Alamofire */,
+				A6E72DF82EE3F7BC00C12047 /* Kingfisher */,
+			);
+			productName = "Superhero Randomizer App (via Packages)";
+			productReference = A6E72DB82EE3F17400C12047 /* Superhero Randomizer App (via Packages).app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6E72DCD2EE3F17600C12047 /* Superhero Randomizer App (via Packages)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E72DE52EE3F17600C12047 /* Build configuration list for PBXNativeTarget "Superhero Randomizer App (via Packages)Tests" */;
+			buildPhases = (
+				A6E72DCA2EE3F17600C12047 /* Sources */,
+				A6E72DCB2EE3F17600C12047 /* Frameworks */,
+				A6E72DCC2EE3F17600C12047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6E72DD02EE3F17600C12047 /* PBXTargetDependency */,
+			);
+			name = "Superhero Randomizer App (via Packages)Tests";
+			productName = "Superhero Randomizer App (via Packages)Tests";
+			productReference = A6E72DCE2EE3F17600C12047 /* Superhero Randomizer App (via Packages)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6E72DD72EE3F17600C12047 /* Superhero Randomizer App (via Packages)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E72DE82EE3F17600C12047 /* Build configuration list for PBXNativeTarget "Superhero Randomizer App (via Packages)UITests" */;
+			buildPhases = (
+				A6E72DD42EE3F17600C12047 /* Sources */,
+				A6E72DD52EE3F17600C12047 /* Frameworks */,
+				A6E72DD62EE3F17600C12047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6E72DDA2EE3F17600C12047 /* PBXTargetDependency */,
+			);
+			name = "Superhero Randomizer App (via Packages)UITests";
+			productName = "Superhero Randomizer App (via Packages)UITests";
+			productReference = A6E72DD82EE3F17600C12047 /* Superhero Randomizer App (via Packages)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6E72DB02EE3F17400C12047 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A6E72DB72EE3F17400C12047 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A6E72DCD2EE3F17600C12047 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A6E72DB72EE3F17400C12047;
+					};
+					A6E72DD72EE3F17600C12047 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A6E72DB72EE3F17400C12047;
+					};
+				};
+			};
+			buildConfigurationList = A6E72DB32EE3F17400C12047 /* Build configuration list for PBXProject "Superhero Randomizer App (via Packages)" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6E72DAF2EE3F17400C12047;
+			packageReferences = (
+				A6E72DEB2EE3F37500C12047 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				A6E72DEC2EE3F3BC00C12047 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = A6E72DB92EE3F17400C12047 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6E72DB72EE3F17400C12047 /* Superhero Randomizer App (via Packages) */,
+				A6E72DCD2EE3F17600C12047 /* Superhero Randomizer App (via Packages)Tests */,
+				A6E72DD72EE3F17600C12047 /* Superhero Randomizer App (via Packages)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6E72DB62EE3F17400C12047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E72DC52EE3F17600C12047 /* Assets.xcassets in Resources */,
+				A6E72DC82EE3F17600C12047 /* Base in Resources */,
+				A6E72DC32EE3F17400C12047 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E72DCC2EE3F17600C12047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E72DD62EE3F17600C12047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6E72DB42EE3F17400C12047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E72DC02EE3F17400C12047 /* ViewController.swift in Sources */,
+				A6E72DBC2EE3F17400C12047 /* AppDelegate.swift in Sources */,
+				A6E72DBE2EE3F17400C12047 /* SceneDelegate.swift in Sources */,
+				A6E72DF22EE3F45600C12047 /* HeroService.swift in Sources */,
+				A6E72DEE2EE3F3F500C12047 /* Models.swift in Sources */,
+				A6E72DF02EE3F42200C12047 /* Storage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E72DCA2EE3F17600C12047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E72DD32EE3F17600C12047 /* Superhero_Randomizer_App__via_Packages_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E72DD42EE3F17600C12047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E72DDD2EE3F17600C12047 /* Superhero_Randomizer_App__via_Packages_UITests.swift in Sources */,
+				A6E72DDF2EE3F17600C12047 /* Superhero_Randomizer_App__via_Packages_UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6E72DD02EE3F17600C12047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6E72DB72EE3F17400C12047 /* Superhero Randomizer App (via Packages) */;
+			targetProxy = A6E72DCF2EE3F17600C12047 /* PBXContainerItemProxy */;
+		};
+		A6E72DDA2EE3F17600C12047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6E72DB72EE3F17400C12047 /* Superhero Randomizer App (via Packages) */;
+			targetProxy = A6E72DD92EE3F17600C12047 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6E72DC12EE3F17400C12047 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6E72DC22EE3F17400C12047 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6E72DC62EE3F17600C12047 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6E72DC72EE3F17600C12047 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6E72DE02EE3F17600C12047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6E72DE12EE3F17600C12047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6E72DE32EE3F17600C12047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Superhero Randomizer App (via Packages)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.Superhero-Randomizer-App--via-Packages-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6E72DE42EE3F17600C12047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Superhero Randomizer App (via Packages)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.Superhero-Randomizer-App--via-Packages-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6E72DE62EE3F17600C12047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.Superhero-Randomizer-App--via-Packages-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Superhero Randomizer App (via Packages).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Superhero Randomizer App (via Packages)";
+			};
+			name = Debug;
+		};
+		A6E72DE72EE3F17600C12047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.Superhero-Randomizer-App--via-Packages-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Superhero Randomizer App (via Packages).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Superhero Randomizer App (via Packages)";
+			};
+			name = Release;
+		};
+		A6E72DE92EE3F17600C12047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.Superhero-Randomizer-App--via-Packages-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Superhero Randomizer App (via Packages)";
+			};
+			name = Debug;
+		};
+		A6E72DEA2EE3F17600C12047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.Superhero-Randomizer-App--via-Packages-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Superhero Randomizer App (via Packages)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6E72DB32EE3F17400C12047 /* Build configuration list for PBXProject "Superhero Randomizer App (via Packages)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E72DE02EE3F17600C12047 /* Debug */,
+				A6E72DE12EE3F17600C12047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6E72DE22EE3F17600C12047 /* Build configuration list for PBXNativeTarget "Superhero Randomizer App (via Packages)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E72DE32EE3F17600C12047 /* Debug */,
+				A6E72DE42EE3F17600C12047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6E72DE52EE3F17600C12047 /* Build configuration list for PBXNativeTarget "Superhero Randomizer App (via Packages)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E72DE62EE3F17600C12047 /* Debug */,
+				A6E72DE72EE3F17600C12047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6E72DE82EE3F17600C12047 /* Build configuration list for PBXNativeTarget "Superhero Randomizer App (via Packages)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E72DE92EE3F17600C12047 /* Debug */,
+				A6E72DEA2EE3F17600C12047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A6E72DEB2EE3F37500C12047 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		A6E72DEC2EE3F3BC00C12047 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.6.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A6E72DF62EE3F7B700C12047 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6E72DEB2EE3F37500C12047 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		A6E72DF82EE3F7BC00C12047 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6E72DEC2EE3F3BC00C12047 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A6E72DB02EE3F17400C12047 /* Project object */;
+}
